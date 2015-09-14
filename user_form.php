@@ -66,12 +66,7 @@
 	
 	
 ?>
-
-<html>
-	<head>
-		<title>UCP</title>
-	</head>
-	<body>
+<?php require_once("header.php") ?>
 		<table>
 			<td>
 				<div id="login">
