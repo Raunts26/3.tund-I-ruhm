@@ -1,4 +1,9 @@
-
+<?php
+	//Lehe nimi
+	$page_title = "UCP";
+	//Faili nimi
+	$page_file = "login.php";
+?>
 <?php 
 
 	/* user_form.php
@@ -77,26 +82,5 @@
 						
 						<input type="submit" name="btnlogin" value="Logi sisse">
 					</form>
-				</div>
 
-				<div id="register">
-					<form action="userform.php" method="post">
-						<h2>Registreeru</h2>
-						<input name="reg_email" type="email" placeholder="E-post"> <?php echo $reg_email_error; ?><br><br>
-						<input name="reg_name" type="text" placeholder="Teie nimi"> <?php echo $reg_name_error; ?><br><br>						
-						<input name="reg_password" type="password" placeholder="Parool"> <?php echo $reg_password_error;?><br><br>
-						<input name="reg_password_repeat" type="password" placeholder="Korda parooli"> <?php echo $reg_password_repeat_error; ?><br><br>
-						
-						<input type="submit" name="btnregister" value="Registreeru">
-					</form>
-				</div>
-			</td>
-			<td>
-			Idee on <a href="http://www.ntb.ee">Noorte Tööbörs</a>, gümnaasiumis loodud praktiline töö.<br>
-			Kuna hetkene veebileht on suht saast ning lihtsam on mul hetkel uus teha, kui hakata drupali tarkvaral seda parandama.<br>
-			Töötab põhimõtteliselt nagu CVkeskus ja muud sellised saidid.<br>
-			Noor regab ära, loob cv, edastab sobivale tööpakkujale.<br>
-			Nüüdseks oleme 2 aastat tegutsenud, seda hetkel veel Rae vallas, lisandub tõenäoliselt ka Saku vald järgmise tegevusaasta jooksul.
-			</td>
-		</table>
 <?php require_once("../footer.php"); ?>

@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>UCP</title>
+		<title><?php echo $page_title; ?></title>
 	</head>
 	<body>
 	<?php
